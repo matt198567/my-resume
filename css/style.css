@@ -1,0 +1,378 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background-color: #f5f7fa;
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content section */
+
+.main-contect-section {
+  padding: 100px 90px;
+}
+
+.main-contect-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+/* About me section */
+
+.about-me-section {
+  margin: 0 0 50px 0;
+}
+
+.about-me-profession {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  margin: 0 0 20px 0;
+}
+
+.about-me-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000;
+  margin: 0 0 25px 0;
+}
+
+.about-me-description {
+  width: 400px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+/* My projects saction */
+
+.my-projects-saction {
+  margin: 0 0 50px 0;
+}
+
+.my-projects-list {
+  padding: 0 0 0 17px;
+}
+
+.my-projects-item {
+  color: #000;
+  font-weight: bold;
+}
+
+.my-projects-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.my-projects-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-left: 5px;
+}
+
+.my-projects-bracket {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* My experience projects */
+
+.my-experience-saction {
+  margin: 0 0 50px 0;
+}
+
+.my-experience-projects {
+  padding: 0 0 0 17px;
+}
+
+.my-experience-item {
+  color: #000;
+  font-weight: bold;
+}
+
+.my-experience-link,
+.experience-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+/* My work experience */
+
+.my-work-experience-company {
+  color: #fb6d3a;
+}
+
+.my-work-experience-posithion {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 10px 0;
+}
+
+.my-work-experience-period {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 10px 0;
+}
+
+.my-work-experience-divider {
+  color: #000000;
+}
+
+.my-work-experience-duties {
+  padding: 0 0 0 18px;
+}
+
+.my-work-experience-duty {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.my-work-experience-company-block {
+  margin: 0 15px 0 0;
+}
+
+/* My Education */
+
+.my-education-first,
+.my-courses-first {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+
+.my-education-first-too,
+.my-courses-by-specialty {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.my-education-time,
+.my-courses-time {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 10px 0;
+}
+
+.my-education-years,
+.my-courses-years {
+  color: #000000;
+}
+
+/* Sidebar saction */
+
+.saidbar-section {
+  background-color: #1e2939;
+  width: 420px;
+  padding: 60px 10px;
+}
+
+.my-photo {
+  border-radius: 50%;
+  border: solid 4px #ffffff;
+  width: 97%;
+}
+
+.contact-tel {
+  margin: 50px 0 0 0;
+  text-align: center;
+}
+
+.icon-tel-svg {
+  fill: currentColor;
+  margin-right: 5px;
+  transition: fill 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.icon-item + .icon-item {
+  margin-left: 10px;
+}
+
+.icon-link {
+  width: 44px;
+  height: 44px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-svg {
+  transition: fill 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-link:hover,
+.icon-link:focus {
+  background-color: #fb6d3a;
+}
+
+.icon-link:hover .icon-svg,
+.icon-link:focus .icon-svg {
+  fill: teal;
+}
+.icon-link {
+  fill: #1e2939;
+}
+
+.Contact-saction,
+.Tech-scills-saction,
+.my-languages {
+  margin: 50px 0 0 40px;
+}
+
+.saidbar-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #f5f7fa;
+  margin-bottom: 10px;
+}
+
+/* Contacts saction */
+
+.Contacts-saction-type {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #f5f7fa;
+  margin-right: 7px;
+}
+
+.Contacts-saction-link {
+  color: #6b717b;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.Contacts-saction-link:hover {
+  color: #fb6d3a;
+}
+
+/* languages saction */
+
+.saidbar-language {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #f5f7fa;
+  margin-bottom: 10px;
+}
+
+.languages-list {
+  padding: 0 0 0 17px;
+}
+
+.language-item {
+  color: #fb6d3a;
+}
+
+.language-item-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #f5f7fa;
+}
+
+/* Tech scills saction */
+
+.Tech-scills-list {
+  padding: 0 0 0 17px;
+}
+
+.Tech-scills-item {
+  color: #fb6d3a;
+}
+
+.Tech-scills-item-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #f5f7fa;
+}
+
+/* Soft scills saction */
+
+.Softt-scills-saction {
+  margin: 50px 0 0 40px;
+}
+
+.Softt-scills-list {
+  padding: 0 0 0 17px;
+}
+
+.Softt-scills-item {
+  color: #fb6d3a;
+}
+
+.Softt-scills-item-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #f5f7fa;
+}
