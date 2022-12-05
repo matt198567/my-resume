@@ -2,6 +2,10 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
 }
+h3,
+h4 {
+  margin: 0;
+}
 
 .main-container {
   display: flex;
@@ -52,7 +56,6 @@ body {
 }
 
 .about-me-description {
-  width: 400px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -177,15 +180,26 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #fb6d3a;
+  margin-top: 20px;
 }
 
 .my-education-first-too,
-.my-courses-by-specialty {
+.my-courses-by-specialty,
+.my-courses-title {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
   color: #000000;
+}
+
+.my-education-first-too,
+.my-courses-by-specialty {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.my-courses-title {
+  margin-left: 5px;
 }
 
 .my-education-time,
@@ -207,7 +221,7 @@ body {
 
 .saidbar-section {
   background-color: #1e2939;
-  width: 420px;
+  width: 720px;
   padding: 60px 10px;
 }
 
@@ -220,6 +234,12 @@ body {
 .contact-tel {
   margin: 50px 0 0 0;
   text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+.contact-tel-item:not(:first-child) {
+  margin-top: 10px;
 }
 
 .icon-tel-svg {
