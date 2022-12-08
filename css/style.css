@@ -217,11 +217,15 @@ h4 {
   color: #000000;
 }
 
+.my-hobbies {
+  margin-top: 20px;
+}
+
 /* Sidebar saction */
 
 .saidbar-section {
   background-color: #1e2939;
-  width: 720px;
+  width: 580px;
   padding: 60px 10px;
 }
 
@@ -231,6 +235,14 @@ h4 {
   width: 97%;
 }
 
+.text-live {
+  text-align: center;
+  color: #6b717b;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
 .contact-tel {
   margin: 50px 0 0 0;
   text-align: center;
@@ -358,6 +370,10 @@ h4 {
 }
 
 /* Tech scills saction */
+
+.line {
+  border-bottom: 1px solid white;
+}
 
 .Tech-scills-list {
   padding: 0 0 0 17px;
