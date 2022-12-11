@@ -2,6 +2,7 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
 }
+
 h3,
 h4 {
   margin: 0;
@@ -61,6 +62,15 @@ h4 {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
+}
+
+.line-main {
+  border-bottom: 2px solid black;
+}
+
+.line-left {
+  border-left: 2px solid black;
+  height: 100%;
 }
 
 /* My projects saction */
@@ -134,11 +144,19 @@ h4 {
 }
 
 .my-work-experience-posithion {
+  position: relative;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
   margin: 0 0 10px 0;
+}
+
+.my-work-experience-posithion::before {
+  content: "⚫";
+  position: absolute;
+  left: 0;
+  text-indent: -27px;
 }
 
 .my-work-experience-period {
@@ -167,8 +185,17 @@ h4 {
   color: #595959;
 }
 
+.my-work-achievements {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin: 0;
+}
 .my-work-experience-company-block {
-  margin: 0 15px 0 0;
+  margin: 10px 15px 0 15px;
 }
 
 /* My Education */
@@ -225,7 +252,7 @@ h4 {
 
 .saidbar-section {
   background-color: #1e2939;
-  width: 580px;
+  width: 750px;
   padding: 60px 10px;
 }
 
