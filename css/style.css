@@ -262,22 +262,45 @@ h4 {
   width: 97%;
 }
 
-.text-live {
+/* .text-live {
   text-align: center;
   color: #6b717b;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-}
-.contact-tel {
+} */
+/* .contact-tel {
   margin: 50px 0 0 0;
   text-align: center;
   list-style: none;
   padding: 0;
+} */
+
+.contacts-list {
+  list-style: none;
+  padding: 0;
 }
 
-.contact-tel-item:not(:first-child) {
+.contact-tel,
+.text-live {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #f5f7fa;
+  margin: 0;
+}
+
+.contact-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #f5f7fa;
+}
+
+/* .contact-tel-item:not(:first-child) {
   margin-top: 10px;
 }
 
@@ -293,9 +316,9 @@ h4 {
   justify-content: center;
   padding: 0;
   margin-top: 20px;
-}
+} */
 
-.icon-item + .icon-item {
+/* .icon-item + .icon-item {
   margin-left: 10px;
 }
 
@@ -325,10 +348,11 @@ h4 {
 }
 .icon-link {
   fill: #1e2939;
-}
+} */
 
 .Contact-saction,
 .Tech-scills-saction,
+.contacts-section,
 .my-languages {
   margin: 50px 0 0 40px;
 }
